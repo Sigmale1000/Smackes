@@ -1,0 +1,42 @@
+.container_posts{
+    background-color: #202020a8;
+    padding: 2px 20px;
+    border-radius: 1em;
+    border: 1px solid #edf2f448;
+    transition: .1;
+    max-width: 70%;
+    margin: 10px auto;
+}
+
+.container_posts div{
+    padding: 5px 0px;
+}
+
+.container_posts:hover{
+    border: 1px solid #edf2f4;
+    transition: .1s;
+}
+
+.blog_username{
+    font-size: 20px;
+    margin: 0;
+}
+
+.blog_date{
+    font-size: 15px;
+    margin: 0;
+}
+
+.blog_image{
+    max-height: 200px;
+}
+
+.blog_title{
+    margin: 30px 0px 0px 0px;
+    position: relative;
+}
+
+.blog_content{
+    display: none;
+}
+
